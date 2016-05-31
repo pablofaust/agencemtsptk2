@@ -1,0 +1,573 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700|Open+Sans:400,300,600,700);
+
+/* GENERAL */
+
+body {
+	overflow-x: hidden;
+}
+
+h3, h4 {
+	margin: 0;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+
+h5 {
+	margin:0;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+	font-weight: 700;
+}
+/* HOME */
+
+.home-background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	margin-top: -5%;
+}
+
+.background-img {
+	height: 100%;
+	width: 100%;
+}
+
+.background-img>div {
+	height: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.home-welcome {
+	position: relative;
+	padding: 0;
+	width: 290px;
+	height: 75%;
+	border: 3px solid rgba(0, 0, 0, 0.7);
+	margin-top: 5%;
+}
+
+.logo-img {
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+.logo-img>div {
+	height: 200px;
+	width: 200px;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.logo-text {
+	width: 230px;
+	padding: 0;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.divider {
+	width: 230px;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+.home-punchline {
+	width: 230px;
+	padding: 0;
+	margin: 0;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.home-punchline h1 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: 'Libre Baskerville', Times, serif; 
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+.home-welcome form input {
+	background-color: transparent;
+	border: none;
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	width: 230px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.home-welcome form input:focus {
+	outline: none;
+	color: rgba(192, 44, 39, 1);
+}
+
+.agent-id, .agent-password {
+	width: 230px;
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+	color: rgba(192, 44, 39, 0.5);
+}
+
+.agent-id:hover, .agent-password:hover {
+	color: rgba(192, 44, 39, 1);
+}
+
+.home-access {
+	width: 230px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 3px solid rgba(0, 0, 0, 0.7);
+	text-align: center;
+}
+
+.home-access:hover {
+	border: 3px solid rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+}
+
+.home-access input{
+	margin-top: 15px;
+}
+
+
+.home-footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	height: auto;
+}
+
+.home-contact {
+	display: inline-block;
+	vertical-align: top;
+	color: rgba(0, 0, 0, 0.7);
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.home-credits {
+	display: inline-block;
+	vertical-align: top;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.home-credits p, .home-contact p {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.7);
+	letter-spacing: 3px;
+}
+
+.home-contact a {
+	text-decoration: none;
+}
+
+.home-contact p:hover {
+	color: white;
+}
+
+/* CONTACT */
+
+.contact {
+	text-align: center;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 14px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.contact-background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.contact-background-img {
+	height: 100%;
+	width: 100%;
+}
+
+.contact-background-img>div {
+	height: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+/* TABLEAU DE BORD */	
+
+.dashboard {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.dashboard-background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.dashboard-background-img {
+	height: 100%;
+	width: 100%;
+}
+
+.dashboard-background-img>div {
+	height: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.dashboard .row, .dashboard .clearfix {
+	width: 250px;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	height: 1500px;
+}
+
+.dashboard .puzzle {
+	height: 250px;
+	padding: 0;
+	margin: 0;
+}
+
+.puzzle>div {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+	z-index: 100;
+}
+
+.puzzle-1 .logo {
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	z-index: 1000;
+	top: 0;
+	margin-left: 15px;
+}
+
+.dashboard .bouton {
+	position: absolute;
+	z-index: 1000;
+	top:0;
+}
+
+.puzzle-2 .bouton .bouton-valider {
+	height: 92.5px;
+	width: 187.5px;
+	padding: 15px;
+	margin-top: 31.5px;
+}
+
+.puzzle-2 .bouton-solid {
+	width: 100%;
+	height: 100%;
+	border-top: 5px solid rgba(192, 44, 39, 0.5);
+	border-bottom: 5px solid rgba(192, 44, 39, 0.5);
+}
+
+.dashboard h1, .dashboard h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.puzzle-2 .bouton .bouton-indices {
+	height: 92.5px;
+	width: 187.5px;
+	padding: 15px;
+	margin-top: 122.5px;
+	margin-left: 62.5px;
+}
+
+.puzzle-3 .bouton-chrono {
+	width: 100%;
+	height: 112px;
+	margin-top: 77.5px;
+	padding: 30px;
+}
+
+.puzzle-3 .bouton-chrono p {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-align: center;
+	letter-spacing: 3px;
+	color: rgba(192, 44, 39, 0.75);
+	font-size: 30px;
+}
+
+.puzzle-3 .bouton-id {
+	right: 0;
+	margin-top: 186px;
+	height: 62.5px;
+	width: 127px;
+	padding: 20px;
+}
+
+.puzzle-3 .bouton-id p {
+	text-align: center;
+	font-family: 'Libre Baskerville', Times, serif;
+	letter-spacing: 1px;
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.puzzle-4 .bouton-bienvenue {
+	width: 100%;
+	height: 62.5px;
+	top: 0;
+	padding: 20px;
+}
+
+.puzzle-4 .bouton-bienvenue p {
+	text-align: right;
+	font-family: 'Libre Baskerville', Times, serif;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 700;
+}
+
+.puzzle-4 .bouton-bienvenue p strong {
+	color: rgba(192, 44, 39, 0.75);
+}
+
+.puzzle-4 .bouton-mtsptk {
+	top: 0;
+	width: 100%;
+	margin-top: 62.5px;
+	height: 62.5px;
+	padding: 10px;
+}
+
+.puzzle-4 .bouton-mtsptk .texte {
+	position: absolute;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	font-family: 'Libre Baskerville', Times, serif;
+	margin-top: 10px;
+}
+
+.puzzle-4 .bouton-mtsptk .jauge {
+	position: absolute;
+	display: inline-block;
+	width: 75%;
+	margin-left: 50px;
+	height: 70%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.puzzle-5 .bouton-carte {
+	top: 0;
+	height: 187.5px;
+	width: 187.5px;
+	padding: 10px;
+}
+
+.puzzle-5 .bouton-carte .carte {
+	border-radius: 100%;
+	height: 100%;
+	width: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.puzzle-5 .bouton-statut-partenaire {
+	height: 25%;
+	width: 100%;
+	margin-top: 75%;
+	padding: 10px;
+	display: -webkit-inline-box;
+}
+
+.puzzle-5 .bouton-statut-partenaire p {
+	text-align: left;
+	font-family: 'Libre Baskerville', Times, serif;
+	font-size: 14px;
+	margin-top: 10px;
+	font-weight: 700;
+	margin-right: 35px;
+}
+
+.puzzle-5 .bouton-statut-partenaire p strong {
+	color: rgba(192, 44, 39, 0.75);	
+}
+
+.puzzle-5 .icone-statut-partenaire {
+	width: 40px;
+	height: 40px;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.puzzle-6 .bouton-report {
+	height: 25%;
+	width: 100%;
+	padding: 10px;
+}
+
+.puzzle-6 .bouton-report p {
+	font-family: 'Libre Baskerville', Times, serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	margin-top: 15px;
+}
+
+/* RESPONSIVE : TABLETTE */
+
+@media (min-width: 768px) {
+
+.dashboard .row, .dashboard .clearfix {
+	width: 600px;
+}
+
+.dashboard .puzzle {
+	height: 300px;
+}
+
+.puzzle-1 .logo {
+	height: 175px;
+	width: 175px;
+}
+
+.puzzle-2 .bouton .bouton-valider {
+	height: 112.5px;
+	width: 225px;
+	margin-top: 37.5px;
+}
+
+.puzzle-2 .bouton-solid {
+	padding: 10px 15px 0px 15px;
+}
+
+.puzzle-2 .bouton .bouton-indices {
+	height: 112.5px;
+	width: 225px;
+	margin-top: 150px;
+	margin-left: 75px;
+}
+
+.puzzle-3 .bouton-chrono {
+	height: 150px;
+	margin-top: 75px;
+	padding: 50px;
+}
+
+.puzzle-3 .bouton-id {
+	margin-top: 225px;
+	height: 75px;
+	width: 150px;
+	padding: 25px;
+}
+
+.puzzle-4 .bouton-bienvenue {
+	height: 75px;
+	padding: 25px;
+}
+
+.puzzle-4 .bouton-bienvenue p {
+	text-align: left;
+}
+
+.puzzle-4 .bouton-mtsptk {
+	margin-top: 75px;
+	height: 75px;
+}
+
+.puzzle-4 .bouton-mtsptk .texte {
+	margin-top: 15px;
+}
+
+.puzzle-4 .bouton-mtsptk .jauge {
+	margin-left: 60px;
+}
+
+.puzzle-5 .bouton-carte {
+	height: 225px;
+	width: 225px;
+	padding: 20px;
+}
+
+.puzzle-5 .bouton-statut-partenaire {
+	padding: 20px;
+}
+
+.puzzle-5 .bouton-statut-partenaire p {
+	margin-right: 62.5px;
+}
+
+.puzzle-6 .bouton-report {
+	padding: 15px;
+}
+}
+
+/* RESPONSIVE : DESKTOP */
+
+@media (min-width: 992px) {
+
+.dashboard .row, .dashboard .clearfix {
+	width: 900px;
+}
+.puzzle-4 .bouton-bienvenue p {
+	text-align: right;
+}
+}
