@@ -25,7 +25,7 @@
 			<div class="bouton">
 				<div class="bouton-valider">
 					<div class="bouton-solid">
-						<h1>Valider la mission</h1>
+						<h1>Valider la missionieuhfieruhf</h1>
 					</div>
 				</div>
 			</div>
