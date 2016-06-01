@@ -1,9 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700|Open+Sans:400,300,600,700);
 
+@font-face {
+    font-family: 'Gentium';
+    src: url('fonts/genbasr-webfont.woff2') format('woff2'),
+         url('fonts/genbasr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* GENERAL */
 
 body {
 	overflow-x: hidden;
+    background-image: url("img/sedona.jpg");
+    background-repeat: repeat;
 }
 
 h3, h4 {
@@ -50,7 +61,7 @@ h5 {
 	padding: 0;
 	width: 290px;
 	height: 75%;
-	border: 3px solid rgba(0, 0, 0, 0.7);
+	border: 5px solid rgba(0, 0, 0, 0.7);
 	margin-top: 5%;
 }
 
@@ -104,8 +115,8 @@ h5 {
 .home-punchline h1 {
 	margin-bottom: 0px;
 	margin-top: 0px;
-	font-family: 'Libre Baskerville', Times, serif; 
-	font-size: 14px;
+	font-family: 'Gentium', Times, serif; 
+	font-size: 18px;
 	letter-spacing: 1px;
 	font-weight: 700;
 }
@@ -125,7 +136,7 @@ h5 {
 
 .home-welcome form input:focus {
 	outline: none;
-	color: rgba(192, 44, 39, 1);
+	color: rgba(255, 106, 0, 0.9);
 }
 
 .agent-id, .agent-password {
@@ -137,11 +148,11 @@ h5 {
 	margin-right: auto;
 	text-align: center;
 	border-bottom: 3px solid rgba(0, 0, 0, 0.7);
-	color: rgba(192, 44, 39, 0.5);
+	color: rgba(255, 106, 0, 0.7);
 }
 
 .agent-id:hover, .agent-password:hover {
-	color: rgba(192, 44, 39, 1);
+	color: rgba(255, 106, 0, 0.9);
 }
 
 .home-access {
@@ -153,14 +164,12 @@ h5 {
 	margin-left: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	border: 3px solid rgba(0, 0, 0, 0.7);
+	background-color: rgba(255, 106, 0, 0.7);
 	text-align: center;
 }
 
 .home-access:hover {
-	border: 3px solid rgba(0, 0, 0, 0.7);
-	background-color: rgba(0, 0, 0, 0.7);
-	color: white;
+	background-color: rgba(255, 106, 0, 0.9);
 }
 
 .home-access input{
