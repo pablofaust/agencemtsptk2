@@ -10,7 +10,7 @@
 	</div>
 
 	<div class="contact">
-		<h2>06 66 66 66 66</h2>
+		<p>06 66 66 66 66</p>
 	</div>
 
 </div>

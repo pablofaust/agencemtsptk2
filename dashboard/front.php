@@ -95,9 +95,9 @@
 
 			<div class="puzzle-background hidden-xs hidden-md hidden-lg" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-5-tablet.png')"></div>
 
-			<div class="bouton bouton-carte">
+			<a href="img/carte.png"><div class="bouton bouton-carte">
 				<div class="carte" style="background-image: url('<?php echo $url ?>dashboard/img/carte.png')"></div>
-			</div>
+			</div></a>
 
 			<div class="bouton bouton-statut-partenaire">
 				<p>Validation par <strong>Chloé</strong> :</p>
