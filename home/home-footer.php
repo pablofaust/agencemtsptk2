@@ -1,21 +1,17 @@
 <div class="container home-footer">
 
-<div class="row clearfix">
+	<div class="row clearfix">
 
-	<div class="col-sm-3 column">
-		<div class="home-contact">
-			<a href="<?php echo $url ?>contact">
-				<p>Contacter l'agence</p>
-			</a>
+		<div class="col-sm-6 footer-contact">
+				<a href="<?php echo $url ?>contact">
+					<p>Nous contacter</p>
+				</a>
 		</div>
-	</div>
 
-	<div class="col-sm-3 col-sm-offset-6 column">
-		<div class="home-credits">
-				<p>Agence MTSPTK 2016</p>
+		<div class="col-sm-6 footer-credits">
+					<p>© Agence MTSPTK 2016</p>
 		</div>
-	</div>
 
-</div>
+	</div>
 
 </div>

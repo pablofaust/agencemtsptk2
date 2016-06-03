@@ -23,9 +23,9 @@
 			<input type="text" name="password" value="Code d'accès">
 		</div>
 
-		<div class="home-access">
+		<a href="../dashboard"><div class="home-access">
 			<input type="submit" value="Démarrer">
-		</div>
+		</div></a>
 	</form>
 
 </div>
