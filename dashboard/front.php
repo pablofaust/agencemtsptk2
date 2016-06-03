@@ -77,6 +77,10 @@
 				<div class="jauge" style="background-image: url('<?php echo $url ?>dashboard/img/rayures.png')"></div>
 			</div>
 
+			<div class="bouton bouton-legende-mtsptk">
+				<p>(jauge MTSPTK)</p>
+			</div>
+
 		</div>
 
 		<div class="col-sm-6 col-md-4 puzzle puzzle-5">

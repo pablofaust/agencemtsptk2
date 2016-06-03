@@ -2,8 +2,7 @@
 
 <?php include $route.'/assets/header.php' ?>
 <body>
-
-<?php include $route.'/dashboard/background.php' ?>
+	
 <?php include $route.'/dashboard/front.php' ?>
 
 </body>
