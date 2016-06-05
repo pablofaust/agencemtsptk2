@@ -1,0 +1,18 @@
+<?php 
+
+try
+{
+	$bdd = new PDO('mysql:host=localhost;dbname=mtsptk;charset=utf8', 'root', 'root');
+}
+catch(Exception $e)
+{
+        die('Erreur : '.$e->getMessage());
+}
+
+$req = $bdd->prepare("SELECT date_rdv, heure FROM rendez_vous_started AS rdv WHERE (rdv.id_joueur_1 = '" & $_SESSION['id'] & "' OR rdv.id_joueur_2 = '" & $_SESSION['id'] & "')")
+
+while ($donnees = $reponse->fetch())
+{
+	echo $donnees['date_rdv'];
+}
+?>

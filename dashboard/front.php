@@ -53,7 +53,7 @@
 			<div class="puzzle-background hidden-xs hidden-md hidden-lg" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-3-tablet.png')"></div>
 
 			<div class="bouton bouton-chrono">
-				<p>23:14:06</p>
+				<p><?php include $route.'/dashboard/php/chrono.php' ?></p>
 			</div>
 
 			<div class="bouton bouton-id">
