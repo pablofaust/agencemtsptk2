@@ -71,7 +71,7 @@
 			<div class="puzzle-background hidden-xs hidden-md hidden-lg" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-4-tablet.png')"></div>
 
 			<div class="bouton bouton-bienvenue">
-				<p>Bienvenue, <strong>Thibaut</strong>.</p>
+				<p>Bienvenue, <strong><?php include $route.'/dashboard/php/prenom.php' ?></strong>.</p>
 			</div>
 
 			<div class="bouton bouton-mtsptk">

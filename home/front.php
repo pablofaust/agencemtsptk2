@@ -14,17 +14,17 @@
 	<div class="divider">
 	</div>
 
-	<form>
+	<form method="post" action="home/php/form.php">
 		<div class="agent-id">
-			<input type="text" name="id" value="Numéro d'agent">
+			<input type="text" name="pseudo" id="pseudo" value="Numéro d'agent">
 		</div>
 
 		<div class="agent-password">
-			<input type="text" name="password" value="Code d'accès">
+			<input type="password" name="pass" id="pass" value="Code d'accès">
 		</div>
 
 		<a href="../dashboard"><div class="home-access">
-			<input type="submit" value="Démarrer">
+			<input class="valider" type="submit" value="Démarrer">
 		</div></a>
 	</form>
 
