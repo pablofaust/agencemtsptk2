@@ -341,6 +341,16 @@ a, a:hover {
 	margin-top: 10px;
 }
 
+#compte_a_rebours {
+	font-family: 'Libre Baskerville', Times, serif;
+	text-align: center;
+	letter-spacing: 2px;
+	color: rgba(225, 28, 40, 0.8);
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+
 .puzzle-3 .bouton-id {
 	right: 0;
 	margin-top: 186px;
@@ -401,7 +411,9 @@ a, a:hover {
 .puzzle-4 .bouton-mtsptk .jauge {
 	position: absolute;
 	display: inline-block;
-	width: 75%;
+	/*width: 75%;*/
+	right: 0;
+	margin-right: 15px;
 	margin-left: 50px;
 	height: 70%;
 	background: no-repeat center center;

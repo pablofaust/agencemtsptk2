@@ -57,7 +57,7 @@
 			</div>
 
 			<div class="bouton bouton-id">
-				<p>007</p>
+				<p><?php echo $_SESSION['id']; ?></p>
 			</div>
 
 		</div>
@@ -76,9 +76,9 @@
 
 			<div class="bouton bouton-mtsptk">
 				<div class="texte">
-					<p>100%</p>
+					<p><?php include $route.'/dashboard/php/jauge.php' ?>%</p>
 				</div>
-				<div class="jauge" style="background-image: url('<?php echo $url ?>dashboard/img/rayures.png')"></div>
+				<div class="jauge" style="background-image: url('<?php echo $url ?>dashboard/img/rayures.png');width: <?php include $route.'/dashboard/php/jauge2.php' ?>%"></div>
 			</div>
 
 			<div class="bouton bouton-legende-mtsptk">
@@ -99,10 +99,7 @@
 				<div class="carte" style="background-image: url('<?php echo $url ?>dashboard/img/carte.png')"></div>
 			</div></a>
 
-			<div class="bouton bouton-statut-partenaire">
-				<p>Validation par <strong>Chloé</strong> :</p>
-				<div class="icone-statut-partenaire" style="background-image: url('<?php echo $url ?>dashboard/img/croix.png')"></div>
-			</div>
+			<?php include $route.'/dashboard/php/statut_partenaire.php' ?>
 
 		</div>
 
