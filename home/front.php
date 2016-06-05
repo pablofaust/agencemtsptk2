@@ -14,7 +14,7 @@
 	<div class="divider">
 	</div>
 
-	<form method="post" action="home/php/form.php">
+	<form method="post" action="/php/form.php">
 		<div class="agent-id">
 			<input type="text" name="pseudo" id="pseudo" value="Numéro d'agent">
 		</div>
