@@ -322,7 +322,7 @@ a, a:hover {
 }
 
 .puzzle-2 .bouton .bouton-valider .bouton-solid:hover, .puzzle-2 .bouton .bouton-indices .bouton-solid:hover {
-	background-color: rgba(225, 28, 40, 0.8);
+	color: rgba(225, 28, 40, 0.8);
 }
 
 .puzzle-3 .bouton-chrono {
