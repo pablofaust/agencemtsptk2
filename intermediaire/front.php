@@ -31,12 +31,39 @@
 		</p>
 	</div>
 
-	<a href="../home"><div class="girafe" style="background-image: url('<?php echo $url ?>intermediaire/img/homard.png')"></div></a>
+	<a href="../indices"><div class="girafe" style="background-image: url('<?php echo $url ?>intermediaire/img/homard.png')"></div></a>
 
 	<div class="lien-legende">
 
 		<p>(cliquez sur le homard pour accéder aux indices)</p>
 
 	</div>
+
+</div>
+
+<div class="container indices">
+
+	<h1>~ Indices ~</h1>
+
+	<p class="indices-texte">
+
+		<a href="#">Est-ce que je vais me faire kidnapper</a> <strong>(gratuit)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">C’est quoi l’Agence MTSPTK ?</a> <strong>(30 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Pourquoi j’ai reçu cette lettre ?</a> <strong>(60 points)</strong> - stop -
+		<a href="#">Comment est-ce que vous avez eu mes coordonnées ?</a> <strong>(60 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Qui est derrière tout ça ?</a> <strong>(80 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Est-ce que je vais devoir payer ?</a> <strong>(gratuit)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Comment je fais si je ne suis pas disponible à cette date-là ?</a> <strong>(10 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Combien de temps dure la mission ?</a> <strong>(20 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Et si je n’ai pas envie d’y aller ?</a> <strong>(10 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Comment est-ce que je vais retrouver les autres agents ?</a> <strong>(10 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Qu’est-ce qu’il va se passer une fois que j’aurais retrouvé les autres agents ?</a> <strong>(60 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Qui sont les autres agents ?</a> <strong>(40 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Comment les groupes ont-ils été constitués ?</a> <strong>(40 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Comment je saurai si l’autre à valider la mission de son côté ?</a> <strong>(30 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Est-ce que je peux avoir une photo de XXX ?</a> <strong>(50 points)</strong> - stop -<br class="visible-xs"><br class="visible-xs">
+		<a href="#">Et si XXX ne me plaît pas ?</a> <strong>(60 points)</strong> -stop -<br><br>
+		<a href="#">Au fait, ça veut dire quoi MTSPTK ?</a> <strong>(50 points)</strong> - stop.
+	</p>
 
 </div>
