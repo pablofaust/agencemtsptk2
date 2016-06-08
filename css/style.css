@@ -33,7 +33,7 @@ a, a:hover {
 
 /* HOME */
 
-.home-background {
+/*.home-background {
 	position: fixed;
 	width: 100%;
 	height: 80%;
@@ -50,7 +50,7 @@ a, a:hover {
 	height: 100%;
 	background: no-repeat center center;
 	background-size: cover;
-}
+}*/
 
 .home-welcome {
 	position: relative;
@@ -499,6 +499,77 @@ a, a:hover {
 	letter-spacing: 2px;
 }
 
+/* INDICES INTERMEDIAIRE */
+
+.indices-intermediaire {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	padding: 10%;
+}
+
+.indices-intermediaire .logo, .indices-intermediaire .logo a{
+	padding: 0;
+	margin: 0;
+	height: 150px;
+	width: 150px;
+	background: no-repeat center center;
+	background-size: cover;
+	z-index: 100;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.indices-intermediaire .explications {
+	width: 100%;
+	height: auto;
+	margin-top: 40px;
+	text-align: center;
+	font-family: 'Libre Baskerville', Times, serif;
+	letter-spacing : 2px;
+	font-size: 12px;
+	color: rgba(0 .0, 0, 0.7);
+	font-weight: 400;
+}
+
+.indices-intermediaire .explications strong {
+	letter-spacing : 1px;
+	font-size: 14px;
+	color: rgba(225, 28, 40, 0.8);
+	font-weight: 700;
+}
+
+.indices-intermediaire .precision {
+	font-family: 'Libre Baskerville', Times, serif;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+.indices-intermediaire .girafe, .indices-intermediaire .girafe a{
+	padding: 0;
+	margin: 0;
+	height: 80px;
+	width: 150px;
+	background: no-repeat center center;
+	background-size: cover;
+	z-index: 100;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+
+.indices-intermediaire .lien-legende {
+	font-family: 'Libre Baskerville', Times, serif;
+	font-size: 10px;
+	color: rgba(0 ,0 ,0 ,0.7);
+	letter-spacing: 2px;
+	text-align: center;
+	margin-top: 25px;
+	font-weight: 700;
+}
+
 /* RESPONSIVE : TABLETTE */
 
 @media (min-width: 768px) {
@@ -631,5 +702,13 @@ a, a:hover {
 .puzzle-4 .bouton-legende-mtsptk{
 	padding-right: 10px;
 	margin-top: 155px;
+}
+
+.indices-intermediaire {
+	padding: 5% 20% 5% 20%;
+}
+
+.indices-intermediaire .girafe, .indices-intermediaire .girafe a{
+	margin-top: 100px;
 }
 }

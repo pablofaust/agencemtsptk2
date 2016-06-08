@@ -34,7 +34,7 @@
 
 			<div class="bouton">
 				<div class="bouton-indices">
-					<a href="#">
+					<a href="../intermediaire">
 					<div class="bouton-solid">
 						<h2>Obtenir des indices</h2>
 					</div>
