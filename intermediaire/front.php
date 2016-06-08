@@ -31,11 +31,11 @@
 		</p>
 	</div>
 
-	<a href="../indices"><div class="girafe" style="background-image: url('<?php echo $url ?>intermediaire/img/homard.png')"></div></a>
+	<a href="../indices"><div class="girafe" style="background-image: url('<?php echo $url ?>intermediaire/img/girafe.png')"></div></a>
 
 	<div class="lien-legende">
 
-		<p>(cliquez sur le homard pour accéder aux indices)</p>
+		<p>(cliquez sur la girafe pour accéder aux indices)</p>
 
 	</div>
 

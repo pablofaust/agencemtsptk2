@@ -549,8 +549,8 @@ a, a:hover {
 .indices-intermediaire .girafe, .indices-intermediaire .girafe a{
 	padding: 0;
 	margin: 0;
-	height: 80px;
-	width: 150px;
+	height: 100px;
+	width: 24px;
 	background: no-repeat center center;
 	background-size: cover;
 	z-index: 100;
@@ -702,6 +702,12 @@ a, a:hover {
 	padding: 15px;
 }
 
+.indices-intermediaire .girafe, .indices-intermediaire .girafe a{
+	height: 150px;
+	width: 36px;
+	margin-top: 40px;
+}
+
 .indices .indices-texte {
 	text-align : justify;
 }
@@ -750,6 +756,8 @@ a, a:hover {
 }
 
 .indices-intermediaire .girafe, .indices-intermediaire .girafe a{
-	margin-top: 100px;
+	height: 200px;
+	width: 48px;
+	margin-top: 40px;
 }
 }
