@@ -16,11 +16,11 @@
 
 	<form method="post" action="home/php/form.php">
 		<div class="agent-id">
-			<input type="text" name="pseudo" id="pseudo" value="Numéro d'agent">
+			<input type="text" name="pseudo" id="pseudo" placeholder="Numéro d'agent">
 		</div>
 
 		<div class="agent-password">
-			<input type="password" name="pass" id="pass" value="Code d'accès">
+			<input type="password" name="pass" id="pass" placeholder="Code d'accès">
 		</div>
 
 		<a href="../dashboard"><div class="home-access">

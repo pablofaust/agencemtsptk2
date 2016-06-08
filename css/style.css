@@ -598,6 +598,57 @@ a, a:hover {
 	line-height: 2;
 }
 
+.indices .indices-texte button {
+	font-family: 'Libre Baskerville', Times, serif;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 700;
+	letter-spacing: 2px;
+	line-height: 2;
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+.indices .indices-texte button:focus {
+	outline: none;
+}
+
+
+.popover {
+  padding: 10px;
+  font-family: "Libre Baskerville", Times, serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  line-height: 2;
+  text-align: center;
+  background-image: url("img/pattern.png");
+  background-repeat: repeat;
+  border: 2px solid rgba(225, 28, 40, 0.8);
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+.popover.top {
+  margin-top: -10px;
+}
+.popover.right {
+  margin-left: 20px;
+}
+.popover.bottom {
+  margin-top: 10px;
+}
+.popover.left {
+  margin-left: -10px;
+}
+
+.popover > .arrow,
+.popover > .arrow:after {
+	display: none;
+}
+
 .indices .indices-texte a {
 	font-weight: 700;
 }
