@@ -629,6 +629,7 @@ a, a:hover {
 
 
 .popover {
+	min-width: 350px;
   padding: 10px;
   font-family: "Libre Baskerville", Times, serif;
   font-size: 12px;
@@ -798,6 +799,9 @@ a, a:hover {
 .indices .jauge-mtsptk {
 	margin-top: 75px;
 }
+
+.popover {
+	min-width: 500px;
 }
 
 /* RESPONSIVE : DESKTOP */
@@ -857,7 +861,8 @@ a, a:hover {
 	letter-spacing: 1px;
 }
 
-.indices .indices-texte {
-	/*margin-top: 75px;*/
+
+.popover {
+	min-width: 600px;
 }
 }
