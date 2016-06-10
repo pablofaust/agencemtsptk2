@@ -118,6 +118,19 @@ a, a:hover {
 	font-weight: 700;
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(225, 28, 40, 0.8);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(225, 28, 40, 0.8);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(225, 28, 40, 0.8);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(225, 28, 40, 0.8);
+}
+
 .home-welcome form input {
 	background-color: transparent;
 	border: none;
@@ -411,7 +424,6 @@ a, a:hover {
 .puzzle-4 .bouton-mtsptk .jauge {
 	position: absolute;
 	display: inline-block;
-	/*width: 75%;*/
 	right: 0;
 	margin-right: 15px;
 	margin-left: 50px;
@@ -573,7 +585,7 @@ a, a:hover {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	padding: 10%;
+	padding: 5%;
 	margin-top: 500px;
 }
 
@@ -599,15 +611,16 @@ a, a:hover {
 }
 
 .indices .indices-texte button {
-	font-family: 'Libre Baskerville', Times, serif;
+	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-size: 12px;
 	color: rgba(0, 0, 0, 0.7);
 	font-weight: 700;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	line-height: 2;
 	background-color: transparent;
 	border: none;
 	padding: 0;
+	text-transform: uppercase;
 }
 
 .indices .indices-texte button:focus {
@@ -656,6 +669,24 @@ a, a:hover {
 .indices .indices-texte strong {
 	font-weight: 400;
 	color: rgba(225, 28, 40, 0.8);
+}
+
+.indices .jauge-mtsptk {
+	margin-top: 50px;
+}
+
+.indices .jauge-texte {
+	float: left;
+	display: inline-block;
+	font-family: 'Libre Baskerville', Times, serif;
+	font-size: 20px;
+	color: rgba(225, 28, 40, 0.8);
+}
+
+.indices .jauge {
+	display: inline-block;
+	float: right;
+	height: 30px;
 }
 
 /* RESPONSIVE : TABLETTE */
@@ -759,8 +790,13 @@ a, a:hover {
 	margin-top: 40px;
 }
 
-.indices .indices-texte {
-	text-align : justify;
+.indices .indices-texte button {
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.indices .jauge-mtsptk {
+	margin-top: 75px;
 }
 }
 
@@ -810,5 +846,18 @@ a, a:hover {
 	height: 200px;
 	width: 48px;
 	margin-top: 40px;
+}
+
+.indices .jauge-mtsptk {
+	margin-top: 100px;
+}
+
+.indices .indices-texte button {
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.indices .indices-texte {
+	/*margin-top: 75px;*/
 }
 }
