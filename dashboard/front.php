@@ -9,7 +9,7 @@
 
 			<div class="puzzle-background hidden-xs hidden-md hidden-lg" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-1-tablet.png')"></div>
 
-			<div class="logo" style="background-image: url('<?php echo $url ?>dashboard/img/logo.png')"></div>
+			<div class="logo" style="background-image: url('<?php echo $url ?>dashboard/img/logo.png')"></div></a>
 
 		</div>
 
@@ -22,17 +22,14 @@
 			<div class="puzzle-background hidden-xs hidden-md hidden-lg" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-2-tablet.png')"></div>
 
 
-			<div class="bouton">
 				<div class="bouton-valider">
-					<a href="../intermediaire">
+					<a href="#">
 					<div class="bouton-solid">
 						<h1>Valider la mission</h1>
 					</div>
 					</a>
 				</div>
-			</div>
 
-			<div class="bouton">
 				<div class="bouton-indices">
 					<a href="../intermediaire">
 					<div class="bouton-solid">
@@ -40,7 +37,6 @@
 					</div>
 					</a>
 				</div>
-			</div>
 
 		</div>
 

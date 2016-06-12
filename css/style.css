@@ -296,14 +296,20 @@ a, a:hover {
 	margin-top: 11px;
 }
 
-.puzzle-2 .bouton .bouton-valider {
+.puzzle-2 .bouton-valider {
+	position: absolute;
+	z-index: 1000;
+	top:0;
 	height: 92.5px;
 	width: 187.5px;
 	padding: 20px;
 	margin-top: 31.5px;
 }
 
-.puzzle-2 .bouton .bouton-indices {
+.puzzle-2 .bouton-indices {
+	position: absolute;
+	z-index: 1000;
+	top:0;
 	height: 92.5px;
 	width: 187.5px;
 	padding: 20px;
@@ -311,9 +317,9 @@ a, a:hover {
 	margin-left: 62.5px;
 }
 
-/*.puzzle-2 .bouton .bouton-valider .bouton-solid:hover, .puzzle-2 .bouton .bouton-indices .bouton-solid:hover {
+.puzzle-2 .bouton .bouton-valider .bouton-solid:hover, .puzzle-2 .bouton .bouton-indices .bouton-solid:hover {
 	color: rgba(225, 28, 40, 0.8);
-}*/
+}
 
 .puzzle-3 .bouton-chrono {
 	width: 100%;
