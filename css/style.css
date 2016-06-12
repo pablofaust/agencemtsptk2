@@ -296,12 +296,6 @@ a, a:hover {
 	top:0;
 }
 
-.puzzle-2 .bouton .bouton-valider {
-	height: 92.5px;
-	width: 187.5px;
-	padding: 20px;
-	margin-top: 31.5px;
-}
 
 .puzzle-2 .bouton-solid {
 	width: 100%;
@@ -321,9 +315,11 @@ a, a:hover {
 	margin-top: 11px;
 }
 
-.dashboard a, .dashboard a {
-	text-decoration: none;
-	color: rgba(0, 0, 0, 0.7);
+.puzzle-2 .bouton .bouton-valider {
+	height: 92.5px;
+	width: 187.5px;
+	padding: 20px;
+	margin-top: 31.5px;
 }
 
 .puzzle-2 .bouton .bouton-indices {

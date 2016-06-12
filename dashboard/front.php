@@ -24,7 +24,7 @@
 
 			<div class="bouton">
 				<div class="bouton-valider">
-					<a href="#">
+					<a href="../intermediaire">
 					<div class="bouton-solid">
 						<h1>Valider la mission</h1>
 					</div>
