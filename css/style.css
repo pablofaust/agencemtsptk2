@@ -33,25 +33,6 @@ a, a:hover {
 
 /* HOME */
 
-/*.home-background {
-	position: fixed;
-	width: 100%;
-	height: 80%;
-	padding: 0;
-	margin: 0;
-}
-
-.background-img {
-	height: 100%;
-	width: 100%;
-}
-
-.background-img>div {
-	height: 100%;
-	background: no-repeat center center;
-	background-size: cover;
-}*/
-
 .home-welcome {
 	position: relative;
 	padding: 0;
@@ -330,9 +311,9 @@ a, a:hover {
 	margin-left: 62.5px;
 }
 
-.puzzle-2 .bouton .bouton-valider .bouton-solid:hover, .puzzle-2 .bouton .bouton-indices .bouton-solid:hover {
+/*.puzzle-2 .bouton .bouton-valider .bouton-solid:hover, .puzzle-2 .bouton .bouton-indices .bouton-solid:hover {
 	color: rgba(225, 28, 40, 0.8);
-}
+}*/
 
 .puzzle-3 .bouton-chrono {
 	width: 100%;

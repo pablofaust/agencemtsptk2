@@ -9,7 +9,7 @@
 
 			<div class="puzzle-background hidden-xs hidden-md hidden-lg" style="background-image: url('<?php echo $url ?>dashboard/img/puzzle-1-tablet.png')"></div>
 
-			<a href="../home"><div class="logo" style="background-image: url('<?php echo $url ?>dashboard/img/logo.png')"></div></a>
+			<div class="logo" style="background-image: url('<?php echo $url ?>dashboard/img/logo.png')"></div>
 
 		</div>
 
